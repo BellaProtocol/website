@@ -1,0 +1,29 @@
+#nav {
+    list-style-type: none;
+
+    margin: 0;
+    padding: 0;
+    padding-left: 7%;
+
+    overflow: hidden;
+    background-color: lightblue;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+#nav li {
+    float: left;
+}
+#nav li a {
+    display: block;
+
+    padding: 18px 24px;
+    
+    text-align: center;
+    text-decoration: none;
+    font-size: larger;
+
+    color: darkblue;
+
+    cursor: grab;
+}
