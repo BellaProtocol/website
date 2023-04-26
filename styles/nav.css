@@ -6,9 +6,13 @@
     padding-left: 7%;
 
     overflow: hidden;
-    background-color: lightblue;
+
+    backdrop-filter: blur(10000rem);
+
     position: fixed;
+
     top: 0;
+
     width: 100%;
 }
 #nav li {
@@ -23,7 +27,7 @@
     text-decoration: none;
     font-size: larger;
 
-    color: darkblue;
+    color: white;
 
     cursor: grab;
 }
